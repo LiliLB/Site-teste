@@ -1,0 +1,147 @@
+body{
+    font-family: font-family: 'Kreon', serif;
+    background-color:  rgb(71, 42, 4);
+    margin:0;
+    padding: 0;
+}
+
+ul, ol li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+a hover{
+     color: rgb(71, 42, 4);
+     font-weight: bold
+}
+
+.logo{
+    
+}
+
+.menu{
+    background-color: beige;
+}
+
+/* .menu{
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 20px;
+} */
+
+.menu li{
+    display: inline;
+    padding-left: 150px;
+    font-family: 'Ribeye Marrow', cursive;
+    font-size: 20px
+}
+
+.estilo-imagem{
+    border: solid #000000;
+    border-radius: 30px
+}
+.banner >h1{
+    font-family: 'Allerta Stencil', sans-serif;
+    display: inline-block;
+    margin-top: -5px;
+    font-size: 50px;
+    text-align: center;
+}
+.banner{
+    text-align: center;
+    justify-content: center;
+    margin-top: 0;
+    background-color: rgba(245, 223, 196, 0.473)
+    /* background-image: url('./images/comida.jpg') */
+}
+
+.bannerkenga{
+    text-align: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+}
+
+.bannerbolovo{
+    text-align: center;
+    justify-content: center;
+    background-color: beige
+}
+
+
+.logo{
+    width: 130px
+}
+
+#receita-kenga{
+    margin-top: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;    
+}
+
+.sobre-kenga{
+    margin: 10px;
+}
+.estilo-imagem{
+    margin: 10px;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color:  rgba(245, 223, 196, 0.473);
+}
+.footer{
+    background-color: #000000;
+}
+
+.dadosfinais{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu > nav > ul > li: last-child{
+    font-weight: bond;
+}
+
+
+/* p{
+}
+header{
+}
+
+main{
+
+}
+
+footer > div{
+ padding: 50px;
+ diplay: flex;
+ justify-content: space-around;
+} 
+
+.lista-footer > .info > ol > li:first-child{
+    font-weight:bold;
+    margin-bottom: 5px;
+}
+.listas-footer > .info > ol > li:nth-child(4){
+    color:blue
+}
+/* 
+
+em footer html div class lista footer e segunda div class info 
+ol li{
+    list-style: none;
+} */
